@@ -81,7 +81,6 @@ INSERT INTO estoque_produto (id, idEstoque, idProduto) VALUES
 
 ```
 
-
 ```sql
 -- Quantidade de estoques de um produto
 SELECT ep.id, ep.idEstoque, s.simbolo, p.nome
